@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Habibi&family=Joti+One&family=Timmana&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.home-page {
+    background-color: black;
+    color: white;
+}
+
+#header {
+    background-color: #2B2A22;
+    width: 100%;
+    height: 85px;
+    color: #C19705;
+    border-bottom: 2px solid #FFA113;
+}
+
+.no-list-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.no-list-style li {
+    float: left;
+}
+
+.habibi {
+    font-family: 'Habibi', serif;
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.no-list-style li a {
+    font-family: 'Habibi', serif;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #FFA113;
+}
+
+.no-list-style li a:hover {
+    border-bottom: 2px solid #C19705;
+    ;
+}
+
+
+.header-nav-button {
+    font-family: habibi;
+}
+
+.navi-header {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    margin: 5px;
+}
+
+#logo-text {
+    position: relative;
+    top: -63px;
+    font-size: 40px;
+    margin: 13px;
+    margin-left: 66px;
+    padding-left: 10px;
+}
+
+#header-photo {
+    margin-top: 17px;
+    margin-left: 20px;
+    height: 55px;
+    width: 55px;
+}
+
+.incon {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 200;
+}
+
+.main-content-home h2 {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 2.5vw;
+    width: 40%;
+    float: right;
+    margin-top: 11vw;
+    padding: 10px;
+    font-weight: 200;
+}
+
+.inco {
+    font-size: 4vw;
+    font-family: 'Abhaya Libre', serif;
+    color: whitesmoke;
+}
+
+.itcoin {
+    font-family: 'Abhaya Libre', serif;
+    color: #C19705 !important;
+}
+
+.main-content-home img {
+    width: 50%;
+    padding: 5% 0% 5% 5%;
+}
+
+.yellow-color {
+    color: #FFA113;
+}
+
+.center-div {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.home-page-center-bitcoin {
+    margin-top: 5vh;
+    font-size: 25px;
+}
+
+.home-page-three-side {
+    width: 100%;
+}
+
+.three-side {
+    color: black;
+    margin: 4vw;
+    height: 340px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: #E2E0A1;
+    float: left;
+}
+
+.three-side p {
+    padding: 5px;
+    text-align: center;
+}
+
+.auto-margin {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+
+.fa-solid {
+    font-size: 4vw;
+}
+
+.three-side h2 {
+    margin-top: 0px;
+}
+
+.three-side * {
+    margin: 15px;
+}
+
+.footer {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    width: 100%;
+}
+
+.logo-and-text img {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+.logo-and-text h3 {
+    margin-top: 15px;
+    margin-left: 57px;
+}
+
+.navi-footer ul {
+    float: right;
+}
+
+.logo-and-text {
+    flex: 30%;
+}
+
+.navi-footer {
+    flex: 50%;
+}
+
+.footer-follow {
+    border-left: 2px solid white;
+    height: 90%;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.footer-follow h5 {
+    text-align: center;
+    width: 60%;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer-icon i {
+    font-size: 18px;
+    margin: 8px;
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: #122753;
+}
+
+.fa-instagram {
+    color: #aa2525;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.footer-icon i:hover {
+    opacity: 1;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    font: lighter;
+    background-color: black;
+    color: white;
+}
+
+.dark-yellow {
+    color: #C79219;
+}
+
+.three-side h2 {
+    font-size: 22px;
+}
+
+:root {
+    --animation-timing: 200ms ease-in-out;
+}
+
+.hamburger-menu {
+    --x-width: 44px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: max-content;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+    cursor: pointer;
+    margin-left: -78px;
+}
+
+
+
+.hamburger-menu input:focus-visible::before,
+.hamburger-menu input:focus-visible::after,
+.hamburger-menu input:focus-visible {
+    border: 1px solid white;
+    box-shadow: 0 0 0 1px #1C1A1A
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu input {
+    background-color: #FFA113;
+    content: "";
+    width: 44px;
+    height: 5px;
+    border-radius: 9999px;
+    transform-origin: left center;
+    transition: opacity var(--animation-timing), width var(--animation-timing),
+        rotate var(--animation-timing), translate var(--animation-timing),
+        background-color var(--animation-timing)
+}
+
+.hamburger-menu input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+}
+
+.hamburger-menu:has(input:checked)::before {
+    rotate: 45deg;
+    width: 44px;
+    translate: 0 -2.5px
+}
+
+.hamburger-menu:has(input:checked)::after {
+    rotate: -45deg;
+    width: 44px;
+    translate: 0 2.5px
+}
+
+.hamburger-menu input:checked {
+    opacity: 0;
+    width: 0;
+}
+
+.sidebar {
+    transition: translate var(--animation-timing);
+    padding: 0px 30px;
+    padding-top: calc(39px + 1rem);
+    background-color: #1C1A1A;;
+    color: white;
+    max-width: 40vw;
+    min-height: 100vh;
+    margin-top: -55px;
+}
+
+.hamburger-menu,
+.sidebar {
+    display: none;
+}
+
+.hamburger-menu:has(input:checked)~.sidebar {
+    translate: 0
+}
+
+@media (max-width:950px) {
+    .navi-footer {
+        flex: unset;
+    }
+
+    .no-list-style li a {
+        padding: 2px;
+        margin: 4px;
+        margin-top: 18px;
+        font-size: 14px;
+    }
+
+    .footer-follow {
+        flex: unset;
+    }
+
+    .footer-follow h5 {
+        width: unset;
+    }
+
+    .three-side {
+        margin: 2vw;
+        width: 29%;
+    }
+}
+@media screen and (max-width: 900px) {
+.three-side{
+    height: 360px;
+}
+}
+@media screen and (max-width: 700px) {
+.three-side{
+    margin: 5px;
+    width: 31%;
+    height: 400px;
+}
+}
+@media screen and (max-width: 600px) {
+    .three-side {
+        width: 60%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        height: 274px;
+    }
+
+    .three-side p {
+        font-size: 15px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .three-side * {
+        margin: 10px;
+    }
+
+    .three-side h2 {
+        font-size: 20px;
+    }
+
+    .footer-follow h5 {
+        width: 100%;
+        font-size: 9px;
+    }
+
+    #header-photo {
+        height: 37px;
+        width: 37px;
+        margin-top: 30px;
+    }
+
+    #logo-text {
+        top: -50px;
+        font-size: 30px;
+        margin: 13px;
+        margin-left: 49px;
+        padding-left: 10px;
+    }
+
+    .no-list-style li a {
+        font-size: 8px;
+        padding: 1px;
+        margin: 6px;
+        margin-top: 15px;
+    }
+
+    .footer-follow {
+        flex: none;
+    }
+
+    .main-content-home h2 {
+        font-size: 3.5vw;
+        width: 37vw;
+    }
+
+    .fa-solid {
+        font-size: 7vw;
+    }
+
+    .bitcoin-feature {
+        font-size: 6vw;
+    }
+
+    .logo-and-text img {
+        height: 35px;
+        width: 35px;
+        margin-top: 5px;
+    }
+
+    .logo-and-text h3 {
+        font-size: 11px;
+        margin-left: 40px;
+    }
+
+    .footer-icon i {
+        font-size: 9px;
+        margin: 4px;
+    }
+
+    .footer {
+        height: 40px;
+    }
+
+    .copyright {
+        font-size: 7px;
+    }
+
+    .hamburger-menu {
+        display: grid
+    }
+
+    .header-ul {
+        display: none;
+    }
+
+    .ham-ul li {
+        margin-top: 20px;
+        float: none;
+    }
+
+    .ham-ul li a {
+        color: white;
+        padding: 20px 0px;
+        font-size: 25px;
+        font-family: 'Abhaya Libre', serif;
+    }
+
+    .sidebar {
+        width: 40vw;
+        position: fixed;
+        right: 0;
+    }
+
+    .hamburger-menu:has(input:checked)~.sidebar {
+        display: grid;
+        margin-right: -5px;
+    }
+
+    .inco {
+        font-size: 6vw;
+    }
+
+    .no-list-style li a:hover {
+        border-bottom: 0px;
+    }
+}
+@media (max-width:410px) {
+    .three-side p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:350px) {
+    .navi-footer {
+        display: none;
+    }
+
+}

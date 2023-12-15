@@ -1,0 +1,117 @@
+.contact-page{
+    background-color:  #2B2A22;
+}
+.contact-inside{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+form *{
+    width: 100%;
+}
+form div div{
+    width: 49%;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.contact-inside>div {
+    margin-top: 80px;
+    width: 45%;
+    color: white;
+}
+.form-label{
+    font-family: 'Timmana', sans-serif;
+    padding-left: 20px;
+    display: block;
+    padding-top: 20px;
+}
+.email-text{
+    display: block;
+    padding-top: 85px;
+    font-family: 'Timmana', sans-serif;
+    padding-left: 20px;
+}
+.joti{
+    font-family: 'Joti One', cursive;
+    font-size: 40px;
+}
+input{
+    border-radius: 5px;
+    border: 0px;
+    height: 25px;
+    background-color: #D9D9D9;
+}
+textarea{
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+.submit{
+    margin-top: 15px;
+    width: 80px;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.contact-img{
+    width: 27vw;
+    margin: auto;
+    display: block;
+}
+.contact-con{
+    width: 100%;
+    text-align: center;
+}
+.contact-con *{
+    margin-top: 5px;
+    
+}
+.contact-con p{
+    font-family: 'Inconsolata', monospace;
+}
+.contact-con h1{
+    color: #FFA113;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Habibi', serif;
+}
+.footer{
+    margin-top: 20px;
+}
+@media (max-width:600px) {
+    .contact-inside>div{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .form-label{
+        font-size: 16px;
+    }
+    .LOL{
+        width: 100% !important;
+        display: flex;
+        justify-content: space-evenly;
+        border-top: 2px solid #FFA113;
+        padding-top: 20px;
+    }
+    .contact-img{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        border-right: 2px solid white;
+    }
+    .contact-con{
+        margin-top: 20px;
+    }
+    .contact-con h1{
+        font-size: 20px;
+    }
+    .contact-con p{
+        font-size: 14px;
+    }
+    .joti{
+        font-size: 30px;
+    }
+}

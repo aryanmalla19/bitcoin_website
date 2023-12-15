@@ -1,0 +1,86 @@
+.normal-text {
+    width: 90%;
+    margin: auto;
+}
+
+.normal-text * {
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.center-div{
+    width: 100%;
+    margin-top: 10px;
+}
+.images-text {
+    width: 90%;
+    margin: auto;
+}
+
+.images-text p {
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.images-text img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.crypto-image-background{
+    height: 350px;
+    width: 100%;
+}
+.imagesRight-text{
+    width: 90%;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 19px;
+    height: 470px;
+    margin-bottom: 70px;
+}
+.imagesRight-text img{
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+.imagesRight-text p{
+    margin-top: 40px;
+    width: 58%;
+}
+@media (max-width:850px) {
+    .incon{
+        font-size: 14px;
+    }
+    .crypto-image-background{
+        height: unset;
+    }
+    .imagesRight-text img {
+        height: 90%;
+        width: 50%;
+    }
+}
+@media (max-width:600px) {
+    .imagesRight-text img {
+        height:unset;
+        width: 100%;
+        float:unset; 
+    }
+    .imagesRight-text p{
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .imagesRight-text {
+        height: unset;
+        margin-bottom: 20px;
+    }
+    .center-div{
+        font-size: 25px;
+    }
+}
+@media (max-width:450px) {
+    .incon{
+        font-size: 12px;
+    }
+}

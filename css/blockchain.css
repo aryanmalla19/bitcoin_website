@@ -1,0 +1,147 @@
+.blockchain-text {
+    color: #FF672D;
+    margin-top: 10px;
+}
+
+.blockchain-three-side {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.blockchain-three-side * {
+    margin-left: 20px;
+    flex: 28%
+}
+
+.blockC h2 {
+    margin-top: 20px;
+    color: #FF672D;
+    width: 100%;
+    text-align: center;
+}
+
+.blockchain-three-side * img {
+    display: block;
+    margin: auto;
+    height: 250px;
+}
+
+.blockC {
+    width: 90%;
+}
+
+.blockC ul {
+    width: 100%;
+}
+
+.blockC ul li {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+.blockchain-bottom-img {
+    height: 65% !important;
+}
+
+.bbb {
+    margin-bottom: 0px !important;
+}
+
+.imagesRight-text p {
+    margin-top: 40px;
+    width: 58%;
+}
+
+.imagesRight-text {
+    width: 90%;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 19px;
+    height: 470px;
+    margin-bottom: 70px;
+}
+
+.imagesRight-text img {
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+
+.center-div {
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media (max-width:1350px) {
+    .special-case-block {
+        margin-top: -35px;
+    }
+
+    .special-case {
+        width: 500px !important;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:870px) {
+    .special-case {
+        width: 100% !important;
+        margin: 0;
+        margin-left: 20px;
+    }
+    .special-case-block {
+        margin-top: 0px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:770px) {
+    .blockchain-three-side {
+        flex-direction: column;
+    }
+    .blockchain-three-side * {
+        margin: auto;
+    }
+
+    .imagesRight-text img {
+        height: unset;
+        width: 100%;
+        float: unset;
+    }
+
+    .imagesRight-text p {
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .imagesRight-text {
+        height: unset;
+        margin-bottom: 20px;
+    }
+
+    .center-div {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:500px) {
+    .blockchain-three-side * img{
+        height: unset;
+        width: 100%;
+    }
+    .center-div {
+        font-size: 22px;
+    }
+
+    .blockC ul li,
+    .incon {
+        font-size: 13px;
+    }
+}

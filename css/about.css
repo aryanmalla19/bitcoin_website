@@ -1,0 +1,144 @@
+.margin-10 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.box-rec {
+    height: 300px;
+    width: 90%;
+    background-color: #D9D9D9;
+    margin: auto;
+    border-radius: 0px 0px 200px 0px;
+}
+
+.box-rec img {
+    height: 100%;
+}
+
+.box-rec .right-init {
+    width: 75%;
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+
+.right-init * {
+    margin-top: 10px;
+}
+
+.right-init h3 {
+    font-size: 27px;
+}
+
+.right-init p {
+    font-size: 1.3vw;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.images-text{
+    display: block;
+    width: 90vw;
+    margin: auto;
+}
+.images-text img{
+    width: 100%;
+}
+.images-text *{
+    margin-bottom: 10px;
+}
+.normal-text{
+    width: 90%;
+    margin: auto;
+}
+@media (max-width:1230px) {
+    .box-rec .right-init{
+        width: 65%;
+    }
+}
+@media (max-width:900px) {
+    .box-rec .right-init{
+        width: 60%;
+    }
+    .right-init p,.normal-text,.incon{
+        font-size: 12px;
+    }
+}
+@media (max-width:750px) {
+    .box-rec{
+        height: 400px;
+        border-radius: 10px;
+    }
+    .box-rec .right-init {
+        width: 58%;
+    }
+    .box-rec img {
+        height: 100%;
+        width: 35%;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width:550px) {
+    .box-rec{
+        width: 80%;
+        margin: auto;
+        height: 520px;
+        border-radius: 5px;
+    }
+    .box-rec img{
+        object-fit: cover;
+    }
+    .box-rec .right-init{
+        width: 90%;
+        margin-top: 0;
+    }
+    .box-rec img{
+        height: 40%;
+        width: 100%;
+    }
+    .right-init p{
+        font-size: 11px;
+    }
+    .right-init h3 {
+        font-size: 20px;
+    }
+    .center-div {
+        font-size: 25px;
+        width:unset;
+    }
+    .normal-text {
+        width: 80%;
+    }
+    .incon{
+        font-size: 11px;
+    }
+}
+@media (max-width:420px) {
+    .box-rec{ 
+        height: 600px;
+    }
+}
+@media (max-width:360px) {
+    .box-rec, .normal-text,.images-text{ 
+        width: 95%;
+}
+}
+@media (max-width:310px) {
+    .box-rec img{ 
+        height: 40%;
+    }
+    .box-rec{
+        height: 550px;
+    }
+    .center-div{
+        font-size: 19px;
+    }
+    .right-init h3{
+        font-size: 15px;
+    }
+    .right-init p,.incon{
+        font-size: 10px;
+    }
+}
